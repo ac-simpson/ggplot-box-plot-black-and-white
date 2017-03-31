@@ -1,7 +1,7 @@
 #create nice boxplot of nutrient levels instead of those stupid columns
 
 ##open spreadsheet
-df <- read.csv("/Users/Petrichor/Dropbox/Soils Pools and FLuxes paper/Spreadsheets/moisturecorrectedresults2014.csv", header=TRUE)
+df <- read.csv("file.csv", header=TRUE)
 
 ##reorder factor
 df$Visit <- factor(df$Visit, levels = c("Summer", "Fall"))
